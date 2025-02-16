@@ -1,4 +1,4 @@
-from config.app import *
+from configuration.app import *
 import pandas as pd
 
 # crear un reporte diferente
