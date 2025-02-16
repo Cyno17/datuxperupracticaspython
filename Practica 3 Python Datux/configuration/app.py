@@ -1,5 +1,5 @@
-from config.database import *
-from config.mail import *
+from configuration.database import *
+from configuration.mail import *
 
 
 class App:

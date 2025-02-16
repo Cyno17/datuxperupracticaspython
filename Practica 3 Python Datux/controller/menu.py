@@ -3,11 +3,10 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 from rich.prompt import Prompt
-from config.app import App
+from configuration.app import App
 from controller.function import *
 from controller.report import * 
-
-def menu():
+def menu(app:App):
     console=Console()
     while True:
         menu_text= Text()
@@ -31,6 +30,4 @@ def menu():
             break 
         else:
             print("Opcion no reconocida")
-
-        pass
     
